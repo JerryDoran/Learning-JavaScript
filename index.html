@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/globals.css" />
     <title>Javascript Sandbox</title>
 
     <!-- Use defer to run script after page has loaded all the elements
       by specifying type="module" it will defer it by default -->
 
     <!-- <script type="module" defer src="arrays.js"></!-->
-    <script type="module" defer src="/js/spread-operator.js"></script>
+    <script type="module" defer src="/js/fetch-api.js"></script>
   </head>
 
   <style>
     body {
       font-family: sans-serif;
     }
+
+    .btn {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
   </style>
   <body>
     <h1>Modern Javascript</h1>
+    <button class="btn">Fetch Tours</button>
   </body>
 </html>
